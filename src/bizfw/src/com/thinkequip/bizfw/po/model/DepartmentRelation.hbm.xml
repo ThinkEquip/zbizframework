@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.thinkequip.bizfw.po.model.DepartmentRelation" table="bf_department_rel">
+		<id name="idBfDepartmentRel" column="id_bf_department_rel">
+			<generator class="uuid.hex" />
+		</id>
+		<property name="createDate" column="create_date" />
+		<property name="createBy" column="create_by" />
+		<property name="updateDate" column="update_date" />
+		<property name="updateBy" column="update_by" />
+		<property name="parentDepartmentId" column="id_parent_department" />
+		<property name="childDepartmentId" column="id_child_department" />
+		<property name="parentLevel" column="parent_level" />
+	</class>
+</hibernate-mapping>

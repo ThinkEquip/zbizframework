@@ -1,0 +1,48 @@
+{
+  "folderlist": [{
+    "code": 1,
+    "name": "高山湾项目",
+    "roleUrl": [],
+    "childFolderList": [{
+      "code": 11,
+      "name": "前期资料",
+      "roleUrl": [],
+      "childFolderList": []
+    }, {
+      "code": 12,
+      "name": "设计资料",
+      "roleUrl": [],
+      "childFolderList": []
+    }, {
+      "code": 13,
+      "name": "BIM资料",
+      "roleUrl": [],
+      "childFolderList": []
+    }]
+  }, {
+    "code": 2,
+    "name": "XXX项目",
+    "roleUrl": [],
+    "childFolderList": []
+  }, {
+    "code": 3,
+    "name": "xxx项目2",
+    "roleUrl": [],
+    "childFolderList": []
+  }, {
+    "code": 4,
+    "name": "设计单位",
+    "roleUrl": [],
+    "childFolderList": [{
+      "code": 41,
+      "name": "建筑图纸",
+      "roleUrl": [],
+      "childFolderList": []
+    }, {
+      "code": 42,
+      "name": "机电图纸",
+      "roleUrl": [],
+      "childFolderList": []
+    }]
+  }]
+}

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.thinkequip.bizfw.document.model.Document" table="bf_document">
+		<id name="idBfDocument" column="id_bf_document">
+			<generator class="uuid.hex" />
+		</id>
+		<property name="createDate" column="create_date" />
+		<property name="createBy" column="create_by" />
+		<property name="updateDate" column="update_date" />
+		<property name="updateBy" column="update_by" />
+		<property name="name" column="name" />
+		<property name="extension" column="extension" />
+		<property name="type" column="type" />
+		<property name="path" column="path" />
+		<property name="url" column="url" />
+		<property name="size" column="size" />
+		<property name="memo" column="memo" />
+		<property name="ownerDocumentId" column="owner_document_id" />
+		<property name="revision" column="revision" />
+		<property name="downloadCount" column="download_count" />
+		<property name="md5" column="md5" />
+	</class>
+</hibernate-mapping>

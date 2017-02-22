@@ -1,0 +1,87 @@
+{"menulist":[
+{
+  "code": 1,
+  "name": "高山湾项目",
+  "FileUrl": [],
+  "childList": [{
+    "code": 11,
+    "name": "前期资料",
+    "FileUrl":[],
+    "childList": []
+  }, {
+    "code": 12,
+    "name": "设计资料",
+    "FileUrl": [],
+    "childList": []
+  }, {
+    "code": 13,
+    "name": "BIM资料",
+    "FileUrl": [],
+    "childList": []
+  }]
+}, {
+  "code": 2,
+  "name": "XXX项目",
+  "FileUrl": [],
+  "childList": []
+}, {
+  "code": 3,
+  "name": "xxx项目2",
+  "FileUrl":[],
+  "childList": []
+}, {
+  "code": 4,
+  "name": "设计单位",
+  "FileUrl": [],
+  "childList": [{
+    "code": 41,
+    "name": "建筑图纸",
+    "FileUrl": [],
+    "childList": []
+  }, {
+    "code": 42,
+    "name": "机电图纸",
+    "FileUrl": [],
+    "childList": []
+  }]
+}, {
+  "code": 2,
+  "name": "XXX项目",
+  "FileUrl": [],
+  "childList": []
+}, {
+  "code": 3,
+  "name": "xxx项目2",
+  "FileUrl":[],
+  "childList": []
+}, {
+  "code": 2,
+  "name": "XXX项目",
+  "FileUrl": [],
+  "childList": []
+}, {
+  "code": 3,
+  "name": "xxx项目2",
+  "FileUrl":[],
+  "childList": []
+}, {
+  "code": 2,
+  "name": "XXX项目",
+  "FileUrl": [],
+  "childList": []
+}, {
+  "code": 3,
+  "name": "xxx项目2",
+  "FileUrl":[],
+  "childList": []
+}, {
+  "code": 2,
+  "name": "XXX项目",
+  "FileUrl": [],
+  "childList": []
+}, {
+  "code": 3,
+  "name": "xxx项目2",
+  "FileUrl":[],
+  "childList": []
+}]}

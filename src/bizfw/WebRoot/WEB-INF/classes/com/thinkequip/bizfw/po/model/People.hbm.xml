@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.thinkequip.bizfw.po.model.People" table="bf_people">
+		<id name="idBfPeople" column="id_bf_people">
+			<generator class="uuid.hex" />
+		</id>
+		<property name="createDate" column="create_date" />
+		<property name="createBy" column="create_by" />
+		<property name="updateDate" column="update_date" />
+		<property name="updateBy" column="update_by" />
+		<property name="code" column="code" />
+		<property name="name" column="name" />
+		<property name="password" column="password" />
+		<property name="status" column="status" />
+		<property name="departmentId" column="id_bf_department" />
+		<property name="errorCount" column="error_count" />
+	</class>
+</hibernate-mapping>

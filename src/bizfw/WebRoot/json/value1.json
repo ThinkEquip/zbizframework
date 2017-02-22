@@ -1,0 +1,77 @@
+{
+  "MyList": [{
+    "id": 1,
+    "name": "ASD Headquarters",
+    "childList": [{
+      "id": 11,
+      "name": "San Jose",
+      "childList": [{
+        "id": 13,
+        "name": "Jensen Chapman's Team",
+        "childList": [{
+          "id": 14,
+          "name": "Jimmy John"
+        }, {
+          "id": 15,
+          "name": "Daniel Mills"
+        }, {
+          "id": 16,
+          "name": "Chris Boden"
+        }]
+      }]
+    }, {
+      "id": 12,
+      "name": "Irvine",
+      "childList": [{
+        "id": 23,
+        "name": "Tracey Chapman's Team",
+        "childList": [{
+          "id": 24,
+          "name": "San Jesus"
+        }, {
+          "id": 25,
+          "name": "Fat Albert"
+        }, {
+          "id": 26,
+          "name": "Connor McDavid"
+        }]
+      }]
+    }, {
+      "id": 30,
+      "name": "San Diego",
+      "childList": [{
+        "id": 31,
+        "name": "Duran Duran's Team",
+        "childList": [{
+          "id": 32,
+          "name": "Amberlynn Pinkerton"
+        }, {
+          "id": 33,
+          "name": "Tony Mejia"
+        }, {
+          "id": 34,
+          "name": "Richard Partridge"
+        }, {
+          "id": 35,
+          "name": "Elliot Stabler"
+        }]
+      }, {
+        "id": 40,
+        "name": "Steely Dan's Team",
+        "childList": [{
+          "id": 36,
+          "name": "Tony Stark"
+        }, {
+          "id": 37,
+          "name": "Totally Rad"
+        }, {
+          "id": 38,
+          "name": "Matt Murdock"
+        }, {
+          "id": 39,
+          "name": "Stan Lee"
+        }]
+      }]
+    }]
+  }]
+}

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.thinkequip.bizfw.document.model.FileDeleted" table="bf_file_deleted">
+		<id name="idBfFileDeleted" column="id_bf_file_deleted">
+			<generator class="uuid.hex" />
+		</id>
+		<property name="createDate" column="create_date" />
+		<property name="createBy" column="create_by" />
+		<property name="updateDate" column="update_date" />
+		<property name="updateBy" column="update_by" />
+		<property name="url" column="url" />
+	</class>
+</hibernate-mapping>
